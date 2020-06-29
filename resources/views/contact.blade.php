@@ -32,19 +32,30 @@
             <form action="" method="post" name="contact-form">
               <div class="form-group row">
                 <div class="col-md-12 mb-4 mb-lg-0">
-                  <input type="name" class="form-control" placeholder="Full name" name="name">
+                  <input type="text" class="form-control" placeholder="Full name" name="name">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12 mb-4 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="Subject" name="subject">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Email address" name="email">
+                  <input type="email" class="form-control" placeholder="Email address" name="email">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10" name="message"></textarea>
+                  <input type="tel" class="form-control" placeholder="Phone number" name="phone">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" placeholder="Write your message." cols="30" rows="10" name="message"></textarea>
                 </div>
               </div>
               <div class="form-group row">
@@ -52,6 +63,7 @@
                   <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Submit">
                 </div>
               </div>
+              <input type='hidden' name='_token' value="{{ csrf_token() }}"/>
             </form>
 
 

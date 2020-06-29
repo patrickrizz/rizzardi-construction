@@ -28,20 +28,27 @@
             </div>
             <div class="col-md-6">
                 <div class="quick-contact-form bg-white">
-                    <h2>Get Quotation</h2>
-                    <form action="#" method="">
+                    <h2></h2>
+                    <form action="" method="post">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" class="form-control" placeholder="Name" name="name">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Subject" name="subject">
                         </div>
                         <div class="form-group">
-                            <textarea name="" class="form-control" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                            <input type="email" class="form-control" placeholder="Email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Phone number" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="" cols="30" rows="5" placeholder="Message" name="message"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" class="btn btn-primary px-5">
                         </div>
+                        <input type='hidden' name='_token' value="{{ csrf_token() }}"/>
                     </form>
                 </div>
             </div>

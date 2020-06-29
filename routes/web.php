@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::any('/contact', 'IndexController@getContact');
+
+Route::any('/', 'IndexController@getIndex');
 
 Route::get('/about', function () {
     return view('about');
@@ -34,4 +34,4 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::any('/contact', 'IndexController@getContact');
+
