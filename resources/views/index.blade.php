@@ -23,7 +23,7 @@
             <div class="col-md-5 pr-md-5 mr-auto">
                 <h2 class="line-bottom">Request a quote</h2>
                 <p>
-                    Quality work takes patients and dedication.
+                    Quality work takes a dedicated contractor who builds a partnership with Every client
                 </p>
             </div>
             <div class="col-md-6">
@@ -63,7 +63,7 @@
         <!-- Row -->
         <div class="card">
             <div class="imgBx">
-                <img class="responsive-image" src="/images/myPics/kitchen.jpg" alt="">
+                <img class="responsive-image" src="/images/myPics/kitchen.jpg" alt="kitchen remodel">
             </div>
             <div class="content">
                 <h3>Kitchens remodel<span></span></h3>
@@ -72,7 +72,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/bathroom.jpg" alt="">
+                <img src="/images/myPics/bathroom.jpg" alt="bathroom remodel">
             </div>
             <div class="content">
                 <h3>Bathrooms remodel<span></span></h3>
@@ -81,7 +81,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/house.jpg" alt="">
+                <img src="/images/myPics/house.jpg" alt="remodeling">
             </div>
             <div class="content">
                 <h3>House renovation<span></span></h3>
@@ -91,7 +91,7 @@
         <!-- Row -->
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/deck.jpg" alt="">
+                <img src="/images/myPics/deck.jpg" alt="porch, decks">
             </div>
             <div class="content">
                 <h3>Decks<span></span></h3>
@@ -100,7 +100,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/siding.jpg" alt="">
+                <img src="/images/myPics/siding.jpg" alt="siding">
             </div>
             <div class="content">
                 <h3>Siding<span></span></h3>
@@ -117,10 +117,10 @@
     <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
             <h2>How it works</h2>
-            <p>Our proccess is simple. After we contact eachother, we meet with you to see what construction project you would like done.
+            <p>Our proccess is simple. After we contact eachother, we meet with you to see what construction or remodel project you would like done.
                 Then we give you an estimate of the cost and how long it will take. Then we go to work.
                 Last but not least, we make sure that you are satisfied with our results, make any improvments you request, and then
-                we wrap up the project.</p>
+                we wrap up the project and continue our everlasting partnership</p>
         </div>
     </div>
     <div class="how-it-works d-flex">
@@ -153,7 +153,7 @@
 
                 <div class="row mb-5">
                     <div class="col-md-4 mr-auto">
-                        <h2 class="line-bottom">We Are Leader In The Construction World</h2>
+                        <h2 class="line-bottom">We Are Leader In The Construction Compan</h2>
                     </div>
                     <div class="col-md-8 text-right">
                         <nav class="custom-tab nav" role="tablist" class="nav nav-tabs" id="nav-tab" role="tablist">
