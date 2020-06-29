@@ -24,10 +24,13 @@ class IndexController extends Controller
                 "<h3>Message: </h3>" . $request['message'];
 
             $subject = $request['subject'];
-            $email = 'patrick.d.rizzardi@gmail.com';
+            $patricksEmail = 'patrick.d.rizzardi@gmail.com';
+            $ricksEmail    = 'frederick.w.blazer@outlook.com';
+            $angelasEmail  = 'patrickd_r24@hotmail.com'
             $curl_post_data = array(
                 'from' => 'leads@mail.rizzardiconstruction.com',
-                'to' => $email,
+                'to' => $ricksEmail . ',' . $angelasEmail,
+                'cc' => $patricksEmail,
                 'subject' => $subject,
                 'html' => $message
             );
