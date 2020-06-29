@@ -43,7 +43,7 @@
                 <div class="row align-items-center position-relative">
                     <div class="col-md-3 ">
                         <div class="site-logo">
-                            <a href="/"><strong>Rizzardi</strong>Remodeling</a>
+                            <a href="/"><strong>Rizzardi</strong>Construction</a>
                         </div>
                     </div>
                     <div class="col-md-9  text-right">
