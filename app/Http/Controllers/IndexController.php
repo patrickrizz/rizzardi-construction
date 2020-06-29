@@ -73,14 +73,17 @@ class IndexController extends Controller
                 "<h3>Phone: </h3>" . $request['phone'] . "<br><br>" .
                 "<h3>Message: </h3>" . $request['message'];
 
-            $subject = $request['subject'];
-            $email = 'patrick.d.rizzardi@gmail.com';
-            $curl_post_data = array(
-                'from' => 'leads@mail.rizzardiconstruction.com',
-                'to' => $email,
-                'subject' => $subject,
-                'html' => $message
-            );
+                $subject = $request['subject'];
+                $patricksEmail = 'patrick.d.rizzardi@gmail.com';
+                $ricksEmail    = 'frederick.w.blazer@outlook.com';
+                $angelasEmail  = 'a.reckard6@outlook.com';
+                $curl_post_data = array(
+                    'from' => 'leads@mail.rizzardiconstruction.com',
+                    'to' => $ricksEmail . ',' . $angelasEmail,
+                    'cc' => $patricksEmail,
+                    'subject' => $subject,
+                    'html' => $message
+                );
 
             $service_url = 'https://api.mailgun.net/v3/mail.rizzardiconstruction.com/messages';
 
