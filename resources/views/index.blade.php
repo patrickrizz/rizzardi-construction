@@ -186,8 +186,7 @@
                                     <div class="col-md-4 ml-auto">
                                         <h2 class="line-bottom">Quality</h2>
                                         <p>Maintaining a strong foundation, but a delicate preception with our projects. We check our work multiple times so that 
-                                            our customers Never have to worry. If we make mistakes that we don't notice, let us know so we can give you the best 
-                                        quality service we can deliver. </p>
+                                            our customers Never have to worry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -197,7 +196,7 @@
                                         <img src="images/hero_3.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div class="col-md-4 ml-auto">
-                                        <h2 class="line-bottom">Part ership</h2>
+                                        <h2 class="line-bottom">Partnership</h2>
                                         <p>We don't just serve and build, we develop and maintain a first-class relationship with our clients. That's why partnership is emphisized on our site.</p>
                                     </div>
                                 </div>
