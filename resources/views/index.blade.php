@@ -148,18 +148,18 @@
     </div>
 </div>
 
-{{-- <div class="site-section">
+ <div class="site-section">
             <div class="container">
 
                 <div class="row mb-5">
                     <div class="col-md-4 mr-auto">
-                        <h2 class="line-bottom">We Are Leader In The Construction Compan</h2>
+                        <h2 class="line-bottom">Construction companies leader in Erie, PA</h2>
                     </div>
                     <div class="col-md-8 text-right">
                         <nav class="custom-tab nav" role="tablist" class="nav nav-tabs" id="nav-tab" role="tablist">
                             <a href="#nav-one" class="nav-item nav-link active" data-toggle="tab" role="tab" aria-controls="nav-one" aria-selected="true">Service</a>
                             <a href="#nav-two" class="nav-item nav-link" data-toggle="tab" role="tab" aria-controls="nav-two" aria-selected="false">Quality</a>
-                            <a href="#nav-three" class="nav-item nav-link" data-toggle="tab" role="tab" aria-controls="nav-three" aria-selected="false">Perfection</a>
+                            <a href="#nav-three" class="nav-item nav-link" data-toggle="tab" role="tab" aria-controls="nav-three" aria-selected="false">Partnership</a>
                         </nav>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                                         <h2 class="line-bottom">Quality</h2>
                                         <p>Maintaining a strong foundation, but a delicate preception with our projects. We check our work multiple times so that 
                                             our customers Never have to worry. If we make mistakes that we don't notice, let us know so we can give you the best 
-                                        quality product we can deliver. </p>
+                                        quality service we can deliver. </p>
                                     </div>
                                 </div>
                             </div>
@@ -197,8 +197,8 @@
                                         <img src="images/hero_3.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div class="col-md-4 ml-auto">
-                                        <h2 class="line-bottom">Perfection</h2>
-                                        <p>Patience is key to perfection. We work fast, but always know when to stop and take a look at the bigger picture. </p>
+                                        <h2 class="line-bottom">Part ership</h2>
+                                        <p>We don't just serve and build, we develop and maintain a first-class relationship with our clients. That's why partnership is emphisized on our site.</p>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +206,7 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
 
 {{-- <div class="site-section bg-light">
             <div class="container">
