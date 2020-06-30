@@ -55,7 +55,7 @@ class IndexController extends Controller
 
 
         // return view('contact', ['title' => "contact", 'contents' => $data, 'emailSent' => $emailSent]);
-        return view('index', ['emailSent' => $emailSent]);
+        return view('index', ['emailSent' => $emailSent, 'title' => 'Erie, PA Construction Contractor | Rizzardi Construction']);
     }
     public function postIndex() {}
 
@@ -105,7 +105,7 @@ class IndexController extends Controller
 
 
         // return view('contact', ['title' => "contact", 'contents' => $data, 'emailSent' => $emailSent]);
-        return view('contact', ['emailSent' => $emailSent]);
+        return view('contact', ['emailSent' => $emailSent, 'title' => 'Contact Rizzardi Construction in Erie, PA']);
     }
     public function postContact() {}
 }

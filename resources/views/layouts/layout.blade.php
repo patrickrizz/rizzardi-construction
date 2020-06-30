@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Remodeling and Construction | Rizzardi</title>
+    <title>{{ $title }}</title>
 
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
 
@@ -54,12 +54,12 @@
                 <div class="row align-items-center position-relative">
                     <div class="col-md-3 ">
                         <div class="site-logo">
-                            <a href="/"><strong>Rizzardi</strong>Construction</a>
+                            <h1><a href="/"><strong>Rizzardi</strong>Construction</a></h1>
                         </div>
                     </div>
                     <div class="col-md-9  text-right">
 
-                        <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+                        <span class="d-inline-block d-lg-none site-menu-toggle-btn"><a href="#" class="text-white site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3 text-white"></span></a></span>
 
                         <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto ">

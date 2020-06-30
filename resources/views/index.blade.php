@@ -6,10 +6,8 @@
     <div class="ftco-cover-1 overlay" style="background-image: url('images/myPics/construction.jpg')">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 ml-auto">
-                <div class="col-lg-5">
-                    <h1 class="line-bottom">Construction results delivered with perfection</h1>
-                </div>                
+                <div class="col-lg-12 col-xl-5 ml-auto">
+                    <h1 class="line-bottom">Home improvment. Building your vision. Creating reality.</h1>               
                 </div>
             </div>
         </div>
@@ -17,18 +15,12 @@
 </div>
 
 
-<div class="site-section">
+<div class="site-section quick-contact-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 pr-md-5 mr-auto">
-                <h2 class="line-bottom">Request a quote</h2>
-                <p>
-                    Quality work takes patients and dedication.
-                </p>
-            </div>
-            <div class="col-md-6">
+            <div class="col-lg-12 col-xl-6">
                 <div class="quick-contact-form bg-white">
-                    <h2></h2>
+                    <h2>Get an estimate</h2>
                     <form action="" method="post">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Name" name="name">
