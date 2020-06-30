@@ -7,6 +7,8 @@
 
     <title>{{ $title }}</title>
 
+    <meta description="A tusted local construction company in Erie, PA. Providing value construction services by creating long masting partnerships with our clients">
+
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -157,7 +159,7 @@
                         Copyright &copy;<script>
                             document.write(new Date().getFullYear());
                         </script> 
-                        All rights reserved | Rizzardi Remodeling
+                        All rights reserved | Rizzardi Construction
                     </p>
                 </div>
             </div>
