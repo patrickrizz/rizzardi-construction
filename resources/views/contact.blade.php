@@ -74,7 +74,7 @@
               <ul class="list-unstyled footer-link">
                 <li class="d-block mb-3">
                   <span class="d-block text-black">Address:</span>
-                  <span>Erie, PA. United States</span></li>
+                  <span>2027 W 25th St. <br> Erie, PA. United States</span></li>
                 <li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+1 (814) 688-0382</span></li>
                 <li class="d-block mb-3"><span class="d-block text-black">Email:</span><span>patrick.d.rizzardi@gmail.com</span></li>
               </ul>
