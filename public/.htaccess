@@ -19,6 +19,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-    redirect 302 http://rizzardiconstruction.com https://rizzardiconstruction.com
-    redirect 302 http://www.rizzardiconstruction.com https://rizzardiconstruction.com
+    redirect 301 https://rizzardiconstruction.com
 </IfModule>
