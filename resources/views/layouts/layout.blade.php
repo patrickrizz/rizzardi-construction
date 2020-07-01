@@ -34,7 +34,25 @@
         gtag('config', 'UA-111714213-2');
     </script>
     <!-- End Google Analytics -->
-
+    <!-- Schema -->
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "LocalBusiness",
+          "name" : "RizzardiConstruction",
+          "telephone" : "+1 (814) 688-0382",
+          "email" : "patrick.d.rizzardi@gmail.com",
+          "address" : {
+            "@type" : "PostalAddress",
+            "streetAddress" : "2027 W 25th St.",
+            "addressLocality" : "Erie,",
+            "addressRegion" : "PA",
+            "addressCountry" : "United States"
+          },
+          "image" : [ "https://rizzardiconstruction.com/images/myPics/kitchen.jpg", "https://rizzardiconstruction.com/images/myPics/bathroom.jpg", "https://rizzardiconstruction.com/images/myPics/house.jpg", "https://rizzardiconstruction.com/images/myPics/deck.jpg", "https://rizzardiconstruction.com/images/myPics/siding.jpg", "https://rizzardiconstruction.com/images/hero_1.jpg" ]
+        }
+        </script>
+    <!-- End of Schema -->
 
 </head>
 
