@@ -78,6 +78,8 @@
 
 .quick-contact-section {
     height: 0;
+    position: relative;
+    top: -2000px;
 
     @include media-breakpoint-down(lg) {
         height: auto;
@@ -1313,10 +1315,11 @@
     border-radius: 7px;
     box-shadow: 0 5px 20px -5px rgba($black, .1);
     position: relative;
-    top: -890px;
+    top: 1250px;
+    height: 620px;
 
     @include media-breakpoint-down(lg) {
-        top: 0;
+        top: 2000px;
     }
 
     h2 {
