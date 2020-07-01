@@ -56,7 +56,7 @@
                 <div class="row align-items-center position-relative">
                     <div class="col-md-3 ">
                         <div class="site-logo">
-                            <h1><a href="/"><strong>Rizzardi</strong>Construction</a></h1>
+                            <h2><a href="/"><strong>Rizzardi</strong>Construction</a></h2>
                         </div>
                     </div>
                     <div class="col-md-9  text-right">
