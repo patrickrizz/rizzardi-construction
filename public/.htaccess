@@ -19,5 +19,7 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-    Redirect 301 https://rizzardiconstruction.com
+    # Non www
+    RewriteCond %{HTTP_HOST} ^www.rizzardiconstruction.com [NC]
+    RewriteRule ^(.*)$ https://rizzardiconstruction.com/$1 [L,R=301]
 </IfModule>
