@@ -7,7 +7,7 @@
 
     <title>{{ $title }}</title>
 
-    <meta description="A trusted local construction company in Erie, PA. Providing valued remodeling services by creating long-lasting partnerships with our clients.">
+    <meta name="description" content="A trusted local construction company in Erie, PA. Providing valued remodeling services by creating long-lasting partnerships with our clients.">
 
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
 
