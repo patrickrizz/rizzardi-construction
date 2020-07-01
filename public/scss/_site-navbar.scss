@@ -24,7 +24,16 @@
 		}
 		a {
 			color: $white;
-		}
+        }
+        
+        img {
+            width: 285px;
+
+            @include media-breakpoint-down(md) {
+                width: 200px;
+            }
+            
+        }
 		
 
 		@include media-breakpoint-down(md) {
@@ -206,8 +215,8 @@
 
 .site-menu-toggle-btn {
     position: absolute;
-    top: -42px;
-    right: 10px;
+    top: -53px;
+    right: 30px;
 
     @include media-breakpoint-only(md) {
         top: -17px;
