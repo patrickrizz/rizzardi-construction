@@ -41,7 +41,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                    <img src="images/myPics/bathroom-service.jpg" alt="Image" class="img-fluid">
+                    <img src="images/myPics/bathroom-service.jpg" alt="Patrick and Ashley portrait" class="img-fluid">
                 </div>
                 <div class="col-lg-6 mr-auto">
                     <h2>Patrick & Ashley</h2>
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <img src="images/myPics/bathroom-service.jpg" alt="Image" class="img-fluid">
+                    <img src="images/myPics/bathroom-service.jpg" alt="Rick and Angela portrait" class="img-fluid">
                 </div>
                 <div class="col-lg-6 ml-auto">
                     <h2>Rick & Angela</h2>
@@ -158,7 +158,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
+                <img src="images/hero_1.jpg" alt="Company History" class="img-fluid">
             </div>
             <div class="col-lg-4 ml-auto">
                 <h2>Our History</h2>

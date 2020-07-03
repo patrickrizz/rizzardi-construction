@@ -152,7 +152,7 @@
                     <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
+                                <img src="images/hero_1.jpg" alt="Professionals" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Professional approach</h2>
@@ -163,7 +163,7 @@
                     <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_2.jpg" alt="Image" class="img-fluid">
+                                <img src="images/hero_2.jpg" alt="Quality Guarentee" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Quality Satisfaction</h2>
@@ -174,7 +174,7 @@
                     <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_3.jpg" alt="Image" class="img-fluid">
+                                <img src="images/hero_3.jpg" alt="Response" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Quick Response</h2>
