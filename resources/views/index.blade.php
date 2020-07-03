@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="ftco-blocks-cover-1">
-    <div class="ftco-cover-1 overlay" style="background-image: url('images/myPics/banner.jpg')">
+    <div class="ftco-cover-1 overlay" style="background-image: url('images/myPics/banner.webp')">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
