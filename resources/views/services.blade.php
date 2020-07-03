@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/myPics/deck-service.jpg" alt="Image" class="img-fluid">
+                <img src="images/myPics/deck-service.webp" alt="Image" class="img-fluid">
             </div>
             <div class="col-lg-6 ml-auto">
                 <h2>Decks and Siding</h2>
@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                <img src="images/myPics/window-service.jpg" alt="Image" class="img-fluid">
+                <img src="images/myPics/window-service.webp" alt="Image" class="img-fluid">
             </div>
             <div class="col-lg-6 mr-auto">
                 <h2>Doors and Windows</h2>

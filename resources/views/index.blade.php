@@ -81,7 +81,7 @@
         <!-- Row -->
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/deck-service.jpg" alt="porch, decks">
+                <img src="/images/myPics/deck-service.webp" alt="porch, decks">
             </div>
             <div class="content">
                 <h3>Decks and Siding<span></span></h3>
@@ -90,7 +90,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/window-service.jpg" alt="siding">
+                <img src="/images/myPics/window-service.webp" alt="siding">
             </div>
             <div class="content">
                 <h3>Doors and Windows<span></span></h3>
@@ -101,7 +101,7 @@
     </div>
 </section>
 <!-- End of Projects -->
-<div class="mb-0 how-it-works-banner overlay" style="background-image: url('images/myPics/kitchenBanner.jpg')">
+<div class="mb-0 how-it-works-banner overlay" style="background-image: url('images/myPics/kitchen-banner.webp')">
     <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
             <h2>How it works</h2>
