@@ -56,7 +56,7 @@
                 <img class="responsive-image" src="/images/myPics/kitchen.webp" alt="kitchen remodel">
             </div>
             <div class="content">
-                <h3>Kitchens remodel<span></span></h3>
+                <h3>Kitchen remodel<span></span></h3>
                 {{-- <a href=""></a> --}}
             </div>
         </div>
@@ -65,7 +65,7 @@
                 <img src="/images/myPics/bathroom.webp" alt="bathroom remodel">
             </div>
             <div class="content">
-                <h3>Bathrooms remodel<span></span></h3>
+                <h3>Bathroom remodel<span></span></h3>
                 {{-- <a href=""></a> --}}
             </div>
         </div>
