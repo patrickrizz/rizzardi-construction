@@ -65,7 +65,12 @@
             ],
             "opens": "09:00",
             "closes": "17:00"
-          }
+          },
+          "image" : [ "https://rizzardiconstruction.com/images/myPics/kitchen.webp", 
+          "https://rizzardiconstruction.com/images/myPics/bathroom.webp", 
+          "https://rizzardiconstruction.com/images/myPics/house.webp", 
+          "https://rizzardiconstruction.com/images/myPics/deck-service.webp", 
+          "https://rizzardiconstruction.com/images/myPics/window-service.webp" ]
         }
         </script>
     <!-- End of Schema -->
