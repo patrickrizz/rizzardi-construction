@@ -158,7 +158,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/hero_1.jpg" alt="Company History" class="img-fluid">
+                <img src="images/hero_1.webp" alt="Company History" class="img-fluid">
             </div>
             <div class="col-lg-4 ml-auto">
                 <h2>Our History</h2>
