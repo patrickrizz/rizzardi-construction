@@ -77,13 +77,19 @@
 }
 
 .quick-contact-section {
-    height: 0;
-    position: relative;
-    top: -2000px;
+    height: 400px;
+    position: relative;    
+    padding: 0;
+    top: -200px;
 
-    @include media-breakpoint-down(lg) {
-        height: auto;
+    @include media-breakpoint-down(md){
+        top: 150px;
     }
+
+    @media screen and (width: 375px) {
+        top: 50px;
+    }
+
 }
 
 #contact-section {
@@ -834,8 +840,14 @@
             @include media-breakpoint-down(sm) {
                 font-size: 1.3rem;
                 text-align: center;
-                margin-top: -200px;
+                margin-top: -150px;
             }
+
+            @include media-breakpoint-down(xs) {
+                margin-top: -75px;
+            }
+
+
 
         }
 
@@ -1437,16 +1449,11 @@
 }
 
 .quick-contact-form {
-    padding: 50px;
+    padding: 2.5rem;
     border-radius: 7px;
-    box-shadow: 0 5px 20px -5px rgba($black, .1);
-    position: relative;
-    top: 1250px;
-    height: 620px;
-
-    @include media-breakpoint-down(lg) {
-        top: 2000px;
-    }
+    box-shadow: 0 10px 25px -10px rgba($black, .8);
+    position: relative; 
+    top: 0; 
 
     h2 {
         font-size: 14px;

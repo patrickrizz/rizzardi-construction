@@ -5,8 +5,8 @@
     <div class="ftco-cover-1 overlay" style="background-image: url('images/myPics/banner.jpg')">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12 col-xl-5 ml-auto">
-                    <h1 class="line-bottom">Erie's full-scale construction firm | Focused on the details</h1>
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <h1 class="line-bottom">Erie's full-scale construction firm Focused on the details</h1>
                     <h2>Home improvment. Peace of mind. Dream big.</h2>
                 </div>
             </div>
@@ -16,27 +16,28 @@
 <div class="site-section quick-contact-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-xl-6">
+            <div class="col-12">
                 <div class="quick-contact-form bg-white">
                     <h2>Get an estimate</h2>
                     <form action="" method="post">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name" name="name">
+                        <div class="row">                        
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" placeholder="Name" name="name">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="email" class="form-control" placeholder="Email" name="email">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="tel" class="form-control" placeholder="Phone number" name="phone">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject" name="subject">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email" name="email">
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control" placeholder="Phone number" name="phone">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="" cols="30" rows="5" placeholder="Message" name="message"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary px-5">
+                        <div class="row">
+                            <div class="form-group col-12">
+                                <textarea class="form-control" id="" cols="30" rows="5" placeholder="Message" name="message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Send Message" class="btn btn-primary px-5">
+                            </div>
                         </div>
                         <input type='hidden' name='_token' value="{{ csrf_token() }}" />
                     </form>
