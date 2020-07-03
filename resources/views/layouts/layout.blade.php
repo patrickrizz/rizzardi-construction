@@ -71,7 +71,7 @@
                 <div class="row align-items-center position-relative">
                     <div class="col-md-3 ">
                         <div class="site-logo">
-                            <img src="/images/myPics/Small-Logo.png" alt="Rizzardi Construction, Kitchen Remodel, Bathroom Remodel, Contractor">
+                            <img src="/images/myPics/small-logo.webp" alt="Rizzardi Construction, Kitchen Remodel, Bathroom Remodel, Contractor">
                         </div>
                     </div>
                     <div class="col-md-9  text-right">
