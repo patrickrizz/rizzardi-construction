@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="mb-0 services-banner overlay" style="background-image: url('images/myPics/kitchen-banner.webp')">
+<div class="mb-0 services-banner overlay" style="background-image: url('images/myPics/kitchen-banner.jpg')">
     <div class="row justify-content-center text-center">
         <div class="text-center mb-5 p-5">
             <h1 class="line-bottom">Contact Us</h1>

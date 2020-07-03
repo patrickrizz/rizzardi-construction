@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="mb-0 services-banner overlay" style="background-image: url('images/myPics/bathroom.webp')">
+<div class="mb-0 services-banner overlay" style="background-image: url('images/myPics/bathroom.jpg')">
     <div class="row justify-content-center text-center">
         <div class="text-center mb-5 p-5 col-md-7">
             <h1>Our Services</h1>
@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                <img src="images/myPics/kitchen-service.webp" alt="Kitchen remodel" class="img-fluid">
+                <img src="images/myPics/kitchen-service.jpg" alt="Kitchen remodel" class="img-fluid">
             </div>
             <div class="col-lg-6 mr-auto">
                 <h2>Kitchen Remodeling</h2>
@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/myPics/bathroom-service.webp" alt="Bathhroom remodel" class="img-fluid">
+                <img src="images/myPics/bathroom-service.jpg" alt="Bathhroom remodel" class="img-fluid">
             </div>
             <div class="col-lg-6 ml-auto">
                 <h2>Bathroom Remodeling</h2>
@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                <img src="images/myPics/home-service.webp" alt="Home remodeling, Home renovation" class="img-fluid">
+                <img src="images/myPics/home-service.jpg" alt="Home remodeling, Home renovation" class="img-fluid">
             </div>
             <div class="col-lg-6 mr-auto">
                 <h2>Home Renovation</h2>
@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/myPics/deck-service.webp" alt="Decks, Porches, and Siding installation" class="img-fluid">
+                <img src="images/myPics/deck-service.jpg" alt="Decks, Porches, and Siding installation" class="img-fluid">
             </div>
             <div class="col-lg-6 ml-auto">
                 <h2>Decks and Siding</h2>
@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                <img src="images/myPics/window-service.webp" alt="Door and window installation" class="img-fluid">
+                <img src="images/myPics/window-service.jpg" alt="Door and window installation" class="img-fluid">
             </div>
             <div class="col-lg-6 mr-auto">
                 <h2>Doors and Windows</h2>
