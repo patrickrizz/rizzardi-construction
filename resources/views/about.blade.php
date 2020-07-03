@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 
-<div class="mb-0 services-banner overlay" style="background-image: url('images/myPics/kitchenBanner.jpg')">
+<div class="mb-0 services-banner overlay" style="background-image: url('images/myPics/kitchen-banner.webp')">
     <div class="row justify-content-center text-center">
         <div class="text-center mb-5 p-5">
             <h1 class="line-bottom">About Us</h1>
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <img src="images/myPics/bathroom-service.jpg" alt="Rick and Angela portrait" class="img-fluid">
+                    <img src="images/myPics/bathroom-service.webp" alt="Rick and Angela portrait" class="img-fluid">
                 </div>
                 <div class="col-lg-6 ml-auto">
                     <h2>Rick & Angela</h2>
@@ -158,7 +158,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/hero_1.jpg" alt="Company History" class="img-fluid">
+                <img src="images/hero_1.webp" alt="Company History" class="img-fluid">
             </div>
             <div class="col-lg-4 ml-auto">
                 <h2>Our History</h2>
