@@ -22,4 +22,7 @@
     # Non www
     RewriteCond %{HTTP_HOST} ^www.rizzardiconstruction.com [NC]
     RewriteRule ^(.*)$ https://rizzardiconstruction.com/$1 [L,R=301]
+
+    # Cache all files on this folder at most for 30 seconds.
+    Header set Cache-Control "max-age=1209600, public"
 </IfModule>
