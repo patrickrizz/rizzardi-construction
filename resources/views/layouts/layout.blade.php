@@ -170,8 +170,7 @@
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-6">
-                            <h2 class="footer-heading mb-4">Quick Links</h2>                       
+                        <div class="col-lg-6">                       
                             <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=42.1051869, -80.0949297&amp;q=2027%20W%2025th%20St%2C%20Erie%2C%20PA%2016502+(Rizzardi%20Construction)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">Find GPS coordinates</a></iframe></div><br />
                         </div>
                     </div>
