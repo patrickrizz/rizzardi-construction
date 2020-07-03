@@ -14,15 +14,15 @@
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- Font stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css" >
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="fonts/icomoon/style.css" media="print" onload="this.media='all'">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css" media="print" onload="this.media='all'">
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111714213-2"></script>
-    <script>
+    <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-111714213-2"></script>
+    <script async defer>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());        
@@ -30,7 +30,7 @@
     </script>
     <!-- End Google Analytics -->
     <!-- Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json" async defer>
         {
           "@context" : "http://schema.org",
           "@type" : "LocalBusiness",
@@ -48,13 +48,10 @@
         }
         </script>
     <!-- End of Schema -->
-
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
     <div class="site-wrap" id="home-section">
-
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
                 <div class="site-mobile-menu-close mt-3">
@@ -78,9 +75,7 @@
                         </div>
                     </div>
                     <div class="col-md-9  text-right">
-
                         <span class="d-inline-block d-lg-none site-menu-toggle-btn"><a href="#" class="text-white site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3 text-white"></span></a></span>
-
                         <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto ">
                                 <li 
@@ -172,7 +167,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-6">                       
-                            <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=42.1051869, -80.0949297&amp;q=2027%20W%2025th%20St%2C%20Erie%2C%20PA%2016502+(Rizzardi%20Construction)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">Find GPS coordinates</a></iframe></div><br />
+                            <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=42.1051869, -80.0949297&amp;q=2027%20W%2025th%20St%2C%20Erie%2C%20PA%2016502+(Rizzardi%20Construction)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onload="this.media='all'"><a href="http://www.gps.ie/">Find GPS coordinates</a></iframe></div><br />
                         </div>
                     </div>
                 </div>

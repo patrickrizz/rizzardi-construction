@@ -53,7 +53,7 @@
         <!-- Row -->
         <div class="card">
             <div class="imgBx">
-                <img class="responsive-image" src="/images/myPics/kitchen.jpg" alt="kitchen remodel">
+                <img class="responsive-image" src="/images/myPics/kitchen.webp" alt="kitchen remodel">
             </div>
             <div class="content">
                 <h3>Kitchens remodel<span></span></h3>
