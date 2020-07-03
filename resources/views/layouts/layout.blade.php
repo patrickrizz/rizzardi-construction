@@ -168,6 +168,7 @@
                                 <li><a href="terms">Terms of Service</a></li>
                                 <li><a href="privacy">Privacy Policy</a></li>
                                 <li><a href="#">Contact Us</a></li>
+                                <li>PA#157125</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">                       
@@ -181,9 +182,8 @@
             <div class="col-md-12">
                 <div class="border-top pt-5">
                     <p>
-                        Copyright &copy;<script>
-                            document.write(new Date().getFullYear());
-                        </script> 
+                        Copyright &copy;
+                           <?php echo date('Y'); ?>
                         All rights reserved | Rizzardi Construction
                     </p>
                 </div>

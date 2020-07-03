@@ -80,7 +80,7 @@
     height: 400px;
     position: relative;    
     padding: 0;
-    top: -200px;
+    top: -175px;
 
     @include media-breakpoint-down(md){
         top: 150px;
@@ -846,8 +846,6 @@
             @include media-breakpoint-down(xs) {
                 margin-top: -75px;
             }
-
-
 
         }
 

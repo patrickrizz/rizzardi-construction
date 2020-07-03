@@ -62,6 +62,11 @@ class IndexController extends Controller
         
     }
 
+    public function getAbout(Request $request)
+    {
+        return view('about', ['title' => 'Meet our team | Rizzardi Construction']);
+    }
+
     public function getServices(Request $request)
     {
         return view('services', ['title' => 'Home Improvement Services | Rizzardi Construction']);
