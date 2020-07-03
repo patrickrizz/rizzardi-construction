@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css" media="print" onload="this.media='all'">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/style.min.css" >
 
     <!-- Google Analytics -->
     <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-111714213-2"></script>
