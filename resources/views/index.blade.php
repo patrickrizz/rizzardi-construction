@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="ftco-blocks-cover-1">
-    <div class="ftco-cover-1 overlay" style="background-image: url('images/myPics/banner.jpg')">
+    <div class="ftco-cover-1 overlay" style="background-image: url('images/myPics/index/banner.jpg')">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
@@ -53,7 +53,7 @@
         <!-- Row -->
         <div class="card">
             <div class="imgBx">
-                <img class="responsive-image" src="/images/myPics/kitchen.jpg" alt="kitchen remodel">
+                <img class="responsive-image" src="/images/myPics/index/kitchen.jpg" alt="kitchen remodel">
             </div>
             <div class="content">
                 <h3>Kitchen remodel<span></span></h3>
@@ -62,7 +62,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/bathroom.jpg" alt="bathroom remodel">
+                <img src="/images/myPics/index/bathroom.jpg" alt="bathroom remodel">
             </div>
             <div class="content">
                 <h3>Bathroom remodel<span></span></h3>
@@ -71,7 +71,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/house.jpg" alt="remodeling">
+                <img src="/images/myPics/index/house.jpg" alt="remodeling">
             </div>
             <div class="content">
                 <h3>House renovation<span></span></h3>
@@ -81,7 +81,7 @@
         <!-- Row -->
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/deck-service.jpg" alt="porch, decks">
+                <img src="/images/myPics/index/deck.jpg" alt="porch, decks">
             </div>
             <div class="content">
                 <h3>Decks and Siding<span></span></h3>
@@ -90,7 +90,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/window-service.jpg" alt="siding">
+                <img src="/images/myPics/index/window-service.jpg" alt="siding">
             </div>
             <div class="content">
                 <h3>Doors and Windows<span></span></h3>
@@ -101,7 +101,7 @@
     </div>
 </section>
 <!-- End of Projects -->
-<div class="mb-0 how-it-works-banner overlay" style="background-image: url('images/myPics/kitchen-banner.jpg')">
+<div class="mb-0 how-it-works-banner overlay" style="background-image: url('images/myPics/index/kitchen-banner.jpg')">
     <div class="row justify-content-center text-center">
         <div class="col-7 text-center mb-5">
             <h2>How it works</h2>
@@ -152,7 +152,7 @@
                     <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_1.jpg" alt="Professionals" class="img-fluid">
+                                <img src="images/myPics/index/hero_1.jpg" alt="Professionals" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Professional approach</h2>
@@ -163,7 +163,7 @@
                     <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_2.jpg" alt="Quality Guarentee" class="img-fluid">
+                                <img src="images/myPics/index/hero_2.jpg" alt="Quality Guarentee" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Quality Satisfaction</h2>
@@ -174,7 +174,7 @@
                     <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_3.jpg" alt="Response" class="img-fluid">
+                                <img src="images/myPics/index/hero_3.jpg" alt="Response" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Quick Response</h2>
