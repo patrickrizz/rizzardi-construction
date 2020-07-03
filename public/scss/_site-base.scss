@@ -83,7 +83,7 @@ body {
 	font-weight: 300;
 	font-size: $font-size-base;
     background-color: $background;   
-
+    overflow-x: hidden;
 }
 ::-moz-selection { 
 	background: $black;
