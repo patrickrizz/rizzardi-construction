@@ -645,12 +645,134 @@
         position: static;
     }
 
+    h2 {
+        color: $white;
+    }
+
     @include media-breakpoint-down(md) {
         height: 60vh;
     }
 
 }
+.services-banner {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 
+    &.overlay {
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: .5; // background: rgba(0,196,255,1);
+            background: $black;
+        }
+
+        h1 {
+            color: $white;
+            font-size: 3rem;
+            font-weight: 900;
+            margin-top: 10rem;
+            padding-bottom: 3rem;
+            position: relative;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 1.5rem;
+            padding-bottom: 3rem;
+            position: relative;
+        }
+
+
+
+        p {
+            color: $white;
+
+            a {
+                color: $white;
+                text-decoration: underline;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.how-it-works-banner {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+
+    @include media-breakpoint-down(sm) {
+        padding: 18rem 0 3rem 0;
+    }
+
+    &.overlay {
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: .7; // background: rgba(0,196,255,1);
+            background: $black;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 3rem;
+            font-weight: 900;
+
+            &.line-bottom {
+                position: relative;
+                padding-bottom: 30px;
+
+                &:after {
+                    content: "";
+                    background: $primary;
+                    position: absolute;
+                    bottom: 0;
+                    width: 60px;
+                    height: 7px;
+                    left: 0;
+                }
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.3rem;
+                text-align: center;
+                margin-top: -200px;
+            }
+
+        }
+
+        p {
+            color: $white;
+
+            a {
+                color: $white;
+                text-decoration: underline;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
 .ftco-cover-1 {
     background-size: cover;
     background-position: center center;
@@ -1078,6 +1200,10 @@
 }
 
 .how-it-works {
+
+    @include media-breakpoint-down(sm) {
+        display: none!important;
+    }
 
     .step {
         width: 20%;

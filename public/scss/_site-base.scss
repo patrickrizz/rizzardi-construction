@@ -82,7 +82,8 @@ body {
 	color: $primary!important;
 	font-weight: 300;
 	font-size: $font-size-base;
-	background-color: $background;
+    background-color: $background;   
+
 }
 ::-moz-selection { 
 	background: $black;

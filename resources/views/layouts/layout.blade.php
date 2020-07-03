@@ -25,8 +25,7 @@
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
+        gtag('js', new Date());        
         gtag('config', 'UA-111714213-2');
     </script>
     <!-- End Google Analytics -->
@@ -64,9 +63,14 @@
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
-
         <header class="site-navbar site-navbar-target" role="banner">
-            <div class="container">                
+            <div class="container">   
+                <div class="banner row">
+                    <div class="col-12 text-right">
+                        <a href="tel:814-688-0382"><span class="icon-phone-square"></span> (814) 688-0382</a>
+                        <a href="mailto:info@rizzardiconstruction.com"><span class="icon-envelope"></span> info@rizzardiconstruction.com</a>
+                    </div>
+                </div>             
                 <div class="row align-items-center position-relative">
                     <div class="col-md-3 ">
                         <div class="site-logo">
@@ -92,28 +96,32 @@
                                 class="active"
                                 @endif
                                 
-                                ><a href="about" class="nav-link">About</a></li>
+                                ><a href="about" class="nav-link">Our Team</a>
+                                </li> --}}
                                 <li 
 
                                 @if (Request::is('services'))                                
                                 class="active"
                                 @endif
                                 
-                                ><a href="services" class="nav-link">Services</a></li>
-                                <li 
+                                ><a href="services" class="nav-link">Services</a>
+                                </li>
+                                {{-- <li 
 
                                 @if (Request::is('projects'))                                
                                 class="active"
                                 @endif
                                 
-                                ><a href="projects" class="nav-link">Projects</a></li>
+                                ><a href="projects" class="nav-link">Projects</a>
+                                </li>
                                 <li 
 
                                 @if (Request::is('blog'))                                
                                 class="active"
                                 @endif
                                 
-                                ><a href="blog" class="nav-link">Blog</a></li> --}}
+                                ><a href="blog" class="nav-link">Blog</a>
+                                </li> --}}
                                 <li 
 
                                 @if (Request::is('contact'))                                
@@ -135,7 +143,9 @@
         <div class="row">
             <div class="col-lg-3">
                 <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Skilled construction worker with over 10 years’ experience in performing reparative and preventative maintenance in home and commercial industries. Adept at overhauling, repair, and installation of physical structures, plumbing, and electrical systems.</p>
+                <p>Rizzardi Construction is a fast-growing remodeling and contracting company with 10+ years of home improvement experience serving Erie County
+                    homeowners and realtor companies. We are fully licensed and insured.
+                </p>
             </div>
             <div class="col-lg-8 ml-auto">
               {{--  <div class="row">
@@ -148,20 +158,22 @@
                             <li><a href="#">Privacy</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
                     </div> --}}
-                    <div class="col-lg-6">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>                       
-                        <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=42.1051869, -80.0949297&amp;q=2027%20W%2025th%20St%2C%20Erie%2C%20PA%2016502+(Rizzardi%20Construction)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">Find GPS coordinates</a></iframe></div><br />
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="footer-heading mb-4">Quick Links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="services">Services</a></li>
+                                <li><a href="terms">Terms of Service</a></li>
+                                <li><a href="privacy">Privacy Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="footer-heading mb-4">Quick Links</h2>                       
+                            <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=42.1051869, -80.0949297&amp;q=2027%20W%2025th%20St%2C%20Erie%2C%20PA%2016502+(Rizzardi%20Construction)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">Find GPS coordinates</a></iframe></div><br />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -24,13 +24,13 @@ class IndexController extends Controller
                 "<h3>Message: </h3>" . $request['message'];
 
             $subject = $request['subject'];
-            $patricksEmail = 'info@rizzardiconstruction.com';
+            $email = 'info@rizzardiconstruction.com';
             $ricksEmail    = 'frederick.w.balzer@outlook.com';
             $angelasEmail  = 'a.reckard6@outlook.com';
             $curl_post_data = array(
                 'from' => 'leads@mail.rizzardiconstruction.com',
                 'to' => $ricksEmail . ',' . $angelasEmail,
-                'cc' => $patricksEmail,
+                'cc' => $email,
                 'subject' => $subject,
                 'html' => $message
             );
@@ -57,7 +57,25 @@ class IndexController extends Controller
         // return view('contact', ['title' => "contact", 'contents' => $data, 'emailSent' => $emailSent]);
         return view('index', ['emailSent' => $emailSent, 'title' => 'Erie, PA Construction Contractor | Rizzardi Construction']);
     }
-    public function postIndex() {}
+    public function postIndex()
+    {
+        
+    }
+
+    public function getServices(Request $request)
+    {
+        return view('services', ['title' => 'Home Improvement Services | Rizzardi Construction']);
+    }
+
+    public function getTerms(Request $request)
+    {
+        return view('terms', ['title' => 'Terms and Conditions | Rizzardi Construction']);
+    }
+
+    public function getPrivacy(Request $request)
+    {
+        return view('privacy', ['title' => 'Privacy Policy | Rizzardi Construction']);
+    }
 
     public function getContact(Request $request)
     {
@@ -73,17 +91,17 @@ class IndexController extends Controller
                 "<h3>Phone: </h3>" . $request['phone'] . "<br><br>" .
                 "<h3>Message: </h3>" . $request['message'];
 
-                $subject = $request['subject'];
-                $patricksEmail = 'info@rizzardiconstruction.com';
-                $ricksEmail    = 'frederick.w.balzer@outlook.com';
-                $angelasEmail  = 'a.reckard6@outlook.com';
-                $curl_post_data = array(
-                    'from' => 'leads@mail.rizzardiconstruction.com',
-                    'to' => $ricksEmail . ',' . $angelasEmail,
-                    'cc' => $patricksEmail,
-                    'subject' => $subject,
-                    'html' => $message
-                );
+            $subject = $request['subject'];
+            $email = 'info@rizzardiconstruction.com';
+            $ricksEmail    = 'frederick.w.balzer@outlook.com';
+            $angelasEmail  = 'a.reckard6@outlook.com';
+            $curl_post_data = array(
+                'from' => 'leads@mail.rizzardiconstruction.com',
+                'to' => $ricksEmail . ',' . $angelasEmail,
+                'cc' => $email,
+                'subject' => $subject,
+                'html' => $message
+            );
 
             $service_url = 'https://api.mailgun.net/v3/mail.rizzardiconstruction.com/messages';
 
@@ -107,5 +125,7 @@ class IndexController extends Controller
         // return view('contact', ['title' => "contact", 'contents' => $data, 'emailSent' => $emailSent]);
         return view('contact', ['emailSent' => $emailSent, 'title' => 'Contact Rizzardi Construction in Erie, PA']);
     }
-    public function postContact() {}
+    public function postContact()
+    {
+    }
 }

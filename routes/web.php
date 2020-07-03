@@ -18,13 +18,13 @@ Route::any('/contact', 'IndexController@getContact');
 
 Route::any('/', 'IndexController@getIndex');
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/about', 'IndexController@getAbout');
 
-Route::get('/services', function () {
-    return view('services');
-});
+Route::get('/services', 'IndexController@getServices');
+
+Route::get('/terms', 'IndexController@getTerms');
+
+Route::get('/privacy', 'IndexController@getPrivacy');
 
 Route::get('/projects', function () {
     return view('cars');
