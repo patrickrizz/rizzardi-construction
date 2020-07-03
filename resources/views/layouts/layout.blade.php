@@ -15,7 +15,7 @@
     
     <!-- Font stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css" >
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.min.css">
