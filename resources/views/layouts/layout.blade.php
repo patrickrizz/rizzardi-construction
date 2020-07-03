@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php header('Cache-Control: max-age=84600') ?>
+    <?php header('Cache-Control: max-age=1209600') ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A trusted local construction company in Erie, PA. Providing valued remodeling services by creating long-lasting partnerships with our clients. Contact us today">
