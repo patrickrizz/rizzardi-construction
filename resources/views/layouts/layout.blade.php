@@ -15,8 +15,8 @@
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- Font stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="fonts/icomoon/style.css" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet" media="print">
+    <link rel="stylesheet" href="fonts/icomoon/style.css" media="print">
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.min.css" >
