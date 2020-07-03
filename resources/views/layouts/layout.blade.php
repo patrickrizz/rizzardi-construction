@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <?php header('Cache-Control: max-age=1209600') ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A trusted local construction company in Erie, PA. Providing valued remodeling services by creating long-lasting partnerships with our clients. Contact us today">
@@ -15,8 +14,8 @@
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- Font stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="fonts/icomoon/style.css" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.min.css" >
