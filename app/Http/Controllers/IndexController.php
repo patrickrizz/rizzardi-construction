@@ -24,7 +24,7 @@ class IndexController extends Controller
                 "<h3>Message: </h3>" . $request['message'];
 
             $subject = $request['subject'];
-            $patricksEmail = 'patrick.d.rizzardi@gmail.com';
+            $patricksEmail = 'info@rizzardiconstruction.com';
             $ricksEmail    = 'frederick.w.balzer@outlook.com';
             $angelasEmail  = 'a.reckard6@outlook.com';
             $curl_post_data = array(
@@ -74,7 +74,7 @@ class IndexController extends Controller
                 "<h3>Message: </h3>" . $request['message'];
 
                 $subject = $request['subject'];
-                $patricksEmail = 'patrick.d.rizzardi@gmail.com';
+                $patricksEmail = 'info@rizzardiconstruction.com';
                 $ricksEmail    = 'frederick.w.balzer@outlook.com';
                 $angelasEmail  = 'a.reckard6@outlook.com';
                 $curl_post_data = array(
