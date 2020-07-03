@@ -56,22 +56,22 @@
                 <img class="responsive-image" src="/images/myPics/kitchen.webp" alt="kitchen remodel">
             </div>
             <div class="content">
-                <h3>Kitchen remodel<span></span></h3>
+                <h3>Kitchens remodel<span></span></h3>
                 {{-- <a href=""></a> --}}
             </div>
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/bathroom.webp" alt="bathroom remodel">
+                <img src="/images/myPics/bathroom.jpg" alt="bathroom remodel">
             </div>
             <div class="content">
-                <h3>Bathroom remodel<span></span></h3>
+                <h3>Bathrooms remodel<span></span></h3>
                 {{-- <a href=""></a> --}}
             </div>
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="/images/myPics/house.webp" alt="remodeling">
+                <img src="/images/myPics/house.jpg" alt="remodeling">
             </div>
             <div class="content">
                 <h3>House renovation<span></span></h3>
@@ -152,7 +152,7 @@
                     <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_1.webp" alt="Professionals" class="img-fluid">
+                                <img src="images/hero_1.jpg" alt="Professionals" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Professional approach</h2>
@@ -163,7 +163,7 @@
                     <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_2.webp" alt="Quality Guarentee" class="img-fluid">
+                                <img src="images/hero_2.jpg" alt="Quality Guarentee" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Quality Satisfaction</h2>
@@ -174,7 +174,7 @@
                     <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
                         <div class="row">
                             <div class="col-md-7">
-                                <img src="images/hero_3.webp" alt="Response" class="img-fluid">
+                                <img src="images/hero_3.jpg" alt="Response" class="img-fluid">
                             </div>
                             <div class="col-md-4 ml-auto">
                                 <h2 class="line-bottom">Quick Response</h2>

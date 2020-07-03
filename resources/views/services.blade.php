@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                <img src="images/myPics/kitchen-service.webp" alt="Kitchen remodel" class="img-fluid">
+                <img src="images/myPics/kitchen-service.jpg" alt="Kitchen remodel" class="img-fluid">
             </div>
             <div class="col-lg-6 mr-auto">
                 <h2>Kitchen Remodeling</h2>
@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="images/myPics/bathroom-service.webp" alt="Bathhroom remodel" class="img-fluid">
+                <img src="images/myPics/bathroom-service.jpg" alt="Bathhroom remodel" class="img-fluid">
             </div>
             <div class="col-lg-6 ml-auto">
                 <h2>Bathroom Remodeling</h2>
@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
-                <img src="images/myPics/home-service.webp" alt="Home remodeling, Home renovation" class="img-fluid">
+                <img src="images/myPics/home-service.jpg" alt="Home remodeling, Home renovation" class="img-fluid">
             </div>
             <div class="col-lg-6 mr-auto">
                 <h2>Home Renovation</h2>

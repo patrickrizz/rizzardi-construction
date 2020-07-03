@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <?php header('Cache-Control: max-age=1209600') ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A trusted local construction company in Erie, PA. Providing valued remodeling services by creating long-lasting partnerships with our clients. Contact us today">
@@ -29,7 +30,50 @@
         gtag('config', 'UA-111714213-2');
     </script>
     <!-- End Google Analytics -->
-
+    <!-- Schema -->
+    <script type="application/ld+json" async defer>
+        {
+            "@context": "https://schema.org",
+            "@type": "GeneralContractor",
+            "name": "Rizzardi Construction",
+            "image": "",
+            "@id": "",
+            "url": "https://rizzardiconstruction.com",
+            "telephone": "( 814)688-0382",
+            "priceRange": "5,000 - 250,000",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2027 West 25th Street",
+              "addressLocality": "Erie",
+              "addressRegion": "PA",
+              "postalCode": "16502",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 42.0959114,
+              "longitude": -80.11932589999999
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            "image" : [ "https://rizzardiconstruction.com/images/myPics/kitchen.webp", 
+            "https://rizzardiconstruction.com/images/myPics/bathroom.webp", 
+            "https://rizzardiconstruction.com/images/myPics/house.webp", 
+            "https://rizzardiconstruction.com/images/myPics/deck-service.webp", 
+            "https://rizzardiconstruction.com/images/myPics/window-service.webp" ]
+          }
+          </script>
+    <!-- End of Schema -->
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
