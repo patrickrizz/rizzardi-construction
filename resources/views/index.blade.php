@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-                    <h1 class="line-bottom">Erie's full-scale construction firm Focused on the details</h1>
+                    <h1 class="line-bottom">Erie's full-scale construction firm <br>Focused on the details</h1>
                     <h2>Home improvment. Peace of mind. Dream big.</h2>
                 </div>
             </div>

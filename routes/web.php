@@ -18,7 +18,7 @@ Route::any('/contact', 'IndexController@getContact');
 
 Route::any('/', 'IndexController@getIndex');
 
-Route::get('/about', 'IndexController@getAbout');
+// Route::get('/about', 'IndexController@getAbout');
 
 Route::get('/services', 'IndexController@getServices');
 
@@ -26,12 +26,12 @@ Route::get('/terms', 'IndexController@getTerms');
 
 Route::get('/privacy', 'IndexController@getPrivacy');
 
-Route::get('/projects', function () {
-    return view('cars');
-});
+// Route::get('/projects', function () {
+//     return view('cars');
+// });
 
-Route::get('/blog', function () {
-    return view('blog');
-});
+// Route::get('/blog', function () {
+//     return view('blog');
+// });
 
 
