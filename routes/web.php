@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::any('/contact', 'IndexController@getContact');
+//Route::any('/contact', 'IndexController@getContact');
 
 Route::any('/', 'IndexController@getIndex');
 
